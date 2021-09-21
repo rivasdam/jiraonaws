@@ -7,8 +7,8 @@ This template instead is intended to deploy the quickstart without needing to cr
 
 Instructions:
 1. Create a S3 Bucket. Make the Bucket with Public Access.
-2. Create a folder named: "quickstart-atlassian-jira". Open the folder and create a subfolder called "templates".
-3. Upload the content on this repo inside templates folder. Make sure the content is publicly available.
+2. Create a folder named: "quickstart-atlassian-jira".
+3. Upload the contents on this repo inside the previously created folder. Make sure the content is publicly available.
 4. Copy the URL of quickstart-jira-dc.template-mod.yaml (click on the checkbox next to the filename and click on Copy URL button)
 5. Create a new Stack in CloudFormation using the URL copied previously.
 6. Complete the required parameters and run the stack. 
